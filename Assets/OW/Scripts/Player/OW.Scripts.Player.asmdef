@@ -1,0 +1,18 @@
+{
+    "name": "OW.Scripts.Player",
+    "rootNamespace": "",
+    "references": [
+        "GUID:560b04d1a97f54a4e82edc0cbbb69285",
+        "GUID:b3009d0a1769b7b46a8cb4c1817279a1",
+        "GUID:5a857c80dd26dbd4cb6946213e4ce992"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
