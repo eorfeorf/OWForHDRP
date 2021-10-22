@@ -24,7 +24,7 @@ RenderSettings:
   m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
   m_AmbientIntensity: 1
-  m_AmbientMode: 0
+  m_AmbientMode: 4
   m_SubtractiveShadowColor: {r: 0.13296545, g: 0.19145328, b: 0.33962262, a: 1}
   m_SkyboxMaterial: {fileID: 0}
   m_HaloStrength: 0.5
@@ -513,6 +513,10 @@ PrefabInstance:
     - target: {fileID: 6808687514185951082, guid: 55e17a871131df04a9d179fa76521d43, type: 3}
       propertyPath: m_Name
       value: Main Camera
+      objectReference: {fileID: 0}
+    - target: {fileID: 6808687514185951089, guid: 55e17a871131df04a9d179fa76521d43, type: 3}
+      propertyPath: adjustTargetPosition.y
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6808687514185951094, guid: 55e17a871131df04a9d179fa76521d43, type: 3}
       propertyPath: m_RootOrder

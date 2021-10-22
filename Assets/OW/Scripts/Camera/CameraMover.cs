@@ -12,6 +12,7 @@ namespace OW.Scripts.Camera
         [SerializeField] private float length = 3f;
         [SerializeField] private float maxAngleAxisX = 80f;
         [SerializeField] private float rotateSpeed = 2f;
+        [SerializeField] private Vector3 adjustTargetPosition;
 
         private Vector3 rot;
         private Vector3 playerPosition;
@@ -37,7 +38,7 @@ namespace OW.Scripts.Camera
         {
             TargetPosition.Subscribe(pos =>
             {
-                targetPos = pos;
+                targetPos = pos + adjustTargetPosition;
             }).AddTo(this);
         }
 
